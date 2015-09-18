@@ -1,0 +1,41 @@
+Debue Remy
+Questions TP1 :
+
+Eclipse :
+_________
+
+1) Un projet eclipse est un projet de développement d'un logiciel regroupant les différents fichiers java nécessaires à la création du logiciel.
+
+2) L'explorateur d'eclipse regroupe les différentes parties (liste des classes, console, hierarchie des fichiers etc .. )
+
+3) La perspective d'Eclipse permet de changer de mode de création/fonctionnement sur un projet (ex : lorsque l'on utilise papyrus l'interface change puisque on change de méthodes de travail)
+
+Papyrus :
+_________
+
+4) L'explorateur de modèle permet d'avoir la liste des différentes classes UML du projet
+
+5) Cette vue permet de modifier les classes que l'on vient d'ajouter à l'UML
+
+6) Il faut executer : Windows -> Show View -> Others -> Papyrus -> Model Explorer
+
+7) Dans la vue Model Explorer : Clic droit -> New Diagram -> New Class Diagram
+
+8) Dans la vue Palette : Class -> Drag & Drop sur la vue du modele
+
+9) Menu Contextuel : New Child -> Property , même chose pour opération
+
+10) Les fichiers necessaires à Papyrus sont : di, notation, uml
+
+11) La différence entre Delete et Hide est que delete supprime réellement  et hide cache de l'écran sans supprimer.
+
+12) Copier : CTRL + C  puis CTRL + V
+
+13) On dépose la classe souhaitée du Model Explorer dans l'autre diagramme créé
+
+14) Les associations et compositions se créent via la palette sur la droite
+	On spécifie la cardinalité avec le menu properties en bas de l'écran.
+
+
+
+

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_6WzXcF3gEeWW6rm3bRvJOA" name="RootElement">
+  <packagedElement xmi:type="uml:Class" xmi:id="__y83EF3gEeWW6rm3bRvJOA" name="Hotel" visibility="public">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hrZwg13nEeWW6rm3bRvJOA" type="__cInoF3iEeWW6rm3bRvJOA" association="_hrZwgF3nEeWW6rm3bRvJOA"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_eFYMYF3kEeWW6rm3bRvJOA" name="nb_pieces"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_fZKIcF3kEeWW6rm3bRvJOA" name="adresse"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_geA3sF3kEeWW6rm3bRvJOA" name="categories"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="__cInoF3iEeWW6rm3bRvJOA" name="Chambre">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qvEQwF3kEeWW6rm3bRvJOA" type="_dhdccF3jEeWW6rm3bRvJOA" association="_qvBNcF3kEeWW6rm3bRvJOA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_92lpUl3mEeWW6rm3bRvJOA" type="_Ac-ZkF3jEeWW6rm3bRvJOA" association="_92lCQF3mEeWW6rm3bRvJOA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hra-oF3nEeWW6rm3bRvJOA" type="__y83EF3gEeWW6rm3bRvJOA" association="_hrZwgF3nEeWW6rm3bRvJOA"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Tdqm0F3kEeWW6rm3bRvJOA" name="taille"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_WAiMMF3kEeWW6rm3bRvJOA" name="nb_lits"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Z2nF4F3kEeWW6rm3bRvJOA" name="nb_pieces"/>
+    <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_cM5n0F3kEeWW6rm3bRvJOA" name="prix"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ac-ZkF3jEeWW6rm3bRvJOA" name="Reservation" visibility="private">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LQulIl3lEeWW6rm3bRvJOA" type="_3syg4F3jEeWW6rm3bRvJOA" association="_LQt-EF3lEeWW6rm3bRvJOA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MTm-c13lEeWW6rm3bRvJOA" type="_4juI4F3jEeWW6rm3bRvJOA" association="_MTm-cF3lEeWW6rm3bRvJOA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_lkzgcF3mEeWW6rm3bRvJOA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_loJIUF3mEeWW6rm3bRvJOA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_92lpU13mEeWW6rm3bRvJOA" type="__cInoF3iEeWW6rm3bRvJOA" association="_92lCQF3mEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Fr7xwF3jEeWW6rm3bRvJOA" name="Periode Resa">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_6HSTwF3rEeWW6rm3bRvJOA" name="Date_Resa" visibility="package" isUnique="false"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Pir0cF3jEeWW6rm3bRvJOA" name="Salle d'eau"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_V1oZMF3jEeWW6rm3bRvJOA" name="Douche">
+    <generalization xmi:type="uml:Generalization" xmi:id="_1iQboF3mEeWW6rm3bRvJOA" general="_Pir0cF3jEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_YHXLQF3jEeWW6rm3bRvJOA" name="Salle de bain">
+    <generalization xmi:type="uml:Generalization" xmi:id="_2VKfQF3mEeWW6rm3bRvJOA" general="_Pir0cF3jEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dhdccF3jEeWW6rm3bRvJOA" name="Categorie" isAbstract="true">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qvE30F3kEeWW6rm3bRvJOA" type="__cInoF3iEeWW6rm3bRvJOA" association="_qvBNcF3kEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_f1-cwF3jEeWW6rm3bRvJOA" name="Standard">
+    <generalization xmi:type="uml:Generalization" xmi:id="_z4y1YF3kEeWW6rm3bRvJOA" general="_dhdccF3jEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jJpM8F3jEeWW6rm3bRvJOA" name="Luxe">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0qhNQF3kEeWW6rm3bRvJOA" general="_dhdccF3jEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_mIp7wF3jEeWW6rm3bRvJOA" name="Buisness">
+    <generalization xmi:type="uml:Generalization" xmi:id="_1FwXwF3kEeWW6rm3bRvJOA" general="_dhdccF3jEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3syg4F3jEeWW6rm3bRvJOA" name="Facture">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LQulI13lEeWW6rm3bRvJOA" type="_Ac-ZkF3jEeWW6rm3bRvJOA" association="_LQt-EF3lEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4juI4F3jEeWW6rm3bRvJOA" name="Client">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MTnlgF3lEeWW6rm3bRvJOA" type="_Ac-ZkF3jEeWW6rm3bRvJOA" association="_MTm-cF3lEeWW6rm3bRvJOA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_nhQmEF3mEeWW6rm3bRvJOA" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nhU3gF3mEeWW6rm3bRvJOA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qvBNcF3kEeWW6rm3bRvJOA" memberEnd="_qvEQwF3kEeWW6rm3bRvJOA _qvE30F3kEeWW6rm3bRvJOA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qvCbkF3kEeWW6rm3bRvJOA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qvDCoF3kEeWW6rm3bRvJOA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BwBq8F3lEeWW6rm3bRvJOA" memberEnd="_BwCSAl3lEeWW6rm3bRvJOA _BwC5EF3lEeWW6rm3bRvJOA" navigableOwnedEnd="_BwCSAl3lEeWW6rm3bRvJOA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BwCSAF3lEeWW6rm3bRvJOA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BwCSAV3lEeWW6rm3bRvJOA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BwCSAl3lEeWW6rm3bRvJOA" type="_Pir0cF3jEeWW6rm3bRvJOA" aggregation="composite" association="_BwBq8F3lEeWW6rm3bRvJOA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BwC5EF3lEeWW6rm3bRvJOA" type="__cInoF3iEeWW6rm3bRvJOA" association="_BwBq8F3lEeWW6rm3bRvJOA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_LQt-EF3lEeWW6rm3bRvJOA" memberEnd="_LQulIl3lEeWW6rm3bRvJOA _LQulI13lEeWW6rm3bRvJOA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LQulIF3lEeWW6rm3bRvJOA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LQulIV3lEeWW6rm3bRvJOA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MTm-cF3lEeWW6rm3bRvJOA" memberEnd="_MTm-c13lEeWW6rm3bRvJOA _MTnlgF3lEeWW6rm3bRvJOA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MTm-cV3lEeWW6rm3bRvJOA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MTm-cl3lEeWW6rm3bRvJOA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_92lCQF3mEeWW6rm3bRvJOA" memberEnd="_92lpUl3mEeWW6rm3bRvJOA _92lpU13mEeWW6rm3bRvJOA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_92lpUF3mEeWW6rm3bRvJOA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_92lpUV3mEeWW6rm3bRvJOA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hrZwgF3nEeWW6rm3bRvJOA" memberEnd="_hrZwg13nEeWW6rm3bRvJOA _hra-oF3nEeWW6rm3bRvJOA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hrZwgV3nEeWW6rm3bRvJOA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hrZwgl3nEeWW6rm3bRvJOA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+</uml:Model>
